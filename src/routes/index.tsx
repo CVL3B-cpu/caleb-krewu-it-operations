@@ -243,9 +243,9 @@ function Portfolio() {
             </Reveal>
             <Reveal delay={240}>
               <p className="mt-6 max-w-xl text-base leading-relaxed text-primary-foreground/75">
-                Technically grounded IT support professional delivering dependable end-user support,
-                enterprise systems administration and data integrity assurance — reinforced by
-                certified competence in Python, machine learning and responsible AI practice.
+                IT support professional delivering dependable service desk, systems administration
+                and data integrity assurance — reinforced by certified Python, machine learning and
+                responsible AI knowledge.
               </p>
             </Reveal>
             <Reveal delay={320} className="mt-10 flex flex-wrap items-center gap-4">
