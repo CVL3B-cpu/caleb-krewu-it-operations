@@ -56,39 +56,35 @@ const expertise = [
     title: "Service Desk & Incident Management",
     points: [
       "First and second line support across hardware, software, network and account issues",
-      "Ticket lifecycle ownership: logging, triage, prioritisation by urgency and impact, escalation and closure",
-      "Remote diagnostics and structured root-cause troubleshooting with clear user communication",
-      "SLA-conscious follow-through and accurate resolution documentation",
+      "Ticket lifecycle ownership with SLA-conscious triage, escalation and resolution documentation",
+      "Remote diagnostics and structured root-cause troubleshooting",
     ],
   },
   {
     icon: ServerCog,
     title: "End-User Computing & Systems Administration",
     points: [
-      "Windows 7, 8, 10 and 11 configuration, user profiles, permissions and file management",
-      "Microsoft 365 and Office Suite support — Outlook mail flow, Excel, Word and PowerPoint",
-      "Enterprise platform operation on BAS and LOGIS: capturing, batch processing and reporting",
-      "User onboarding, system access provisioning and application support",
+      "Windows 7–11, Microsoft 365 and Outlook support",
+      "Enterprise platform operation on BAS and LOGIS",
+      "User onboarding, access provisioning and application support",
     ],
   },
   {
     icon: ShieldCheck,
     title: "Information Systems & Data Governance",
     points: [
-      "Data integrity assurance — duplication detection and internal control deficiency reporting",
-      "Pre-audit compliance verification against enterprise records and control standards",
-      "Records management across physical and electronic filing, digitisation and archiving",
-      "Discreet handling of confidential information and governance-aligned documentation",
+      "Data integrity assurance and internal control deficiency reporting",
+      "Pre-audit compliance verification and records management",
+      "Confidential information handling and governance-aligned documentation",
     ],
   },
   {
     icon: BrainCircuit,
     title: "Applied AI & Automation",
     points: [
-      "Certified knowledge of Python programming through accredited online coursework",
-      "Generative AI, prompt engineering and responsible AI application in the workplace",
-      "Supervised machine learning and advanced learning algorithms fundamentals",
-      "Trustworthy AI principles — reliability, transparency and ethical deployment",
+      "Certified Python programming and prompt engineering",
+      "Supervised machine learning, advanced learning algorithms and trustworthy AI",
+      "Responsible AI application to improve workplace productivity",
     ],
   },
 ];
@@ -98,38 +94,20 @@ const experience = [
     role: "IT Support Service Desk Technician",
     org: "CAPACITI",
     period: "June 2026 – Present",
-    summary:
-      "Delivers frontline technical support within a structured service desk environment, resolving hardware, software, network and system incidents end to end.",
     points: [
-      "Provides technical support for hardware, software, network and system-related issues",
-      "Troubleshoots and resolves user problems through diagnostics, structured problem-solving and remote support",
-      "Manages and responds to IT support tickets, prioritising incidents based on urgency and business impact",
-      "Assists users with system access, software applications, account issues and general IT queries",
+      "Frontline technical support for hardware, software, network and system incidents",
+      "Ticket prioritisation, remote troubleshooting and user access administration",
+      "Clear documentation and escalation aligned to business impact",
     ],
   },
   {
     role: "Financial Systems & Administration Intern",
     org: "Western Cape Government — Chief Directorate: Finance",
     period: "May 2023 – February 2024",
-    summary:
-      "Performed systems administration and information management functions within a high-volume government finance environment, supporting enterprise platform operations and data assurance.",
     points: [
-      "Executed data capturing, transaction processing and report generation on the BAS enterprise system",
-      "Conducted pre-audit compliance checks to ensure data accuracy and adherence to internal control standards",
-      "Performed systematic duplication detection on payment records using Excel-based departmental databases",
-      "Generated document control reports and monthly journal reports; processed and validated batch transactions",
-      "Designed and maintained a hybrid physical and electronic filing system, digitising records through high-volume scanning",
-    ],
-  },
-  {
-    role: "Animal Ambulance Operator",
-    org: "Diere Ambulans Dienste (D.A.D.)",
-    period: "September 2025 – Present",
-    summary:
-      "Operates within a time-critical service environment requiring protocol adherence, logistics coordination and professional client engagement.",
-    points: [
-      "Ensures safe and humane transportation of animals to veterinary facilities in line with operational protocol",
-      "Manages time-sensitive logistics and maintains professional communication with clients",
+      "Data capturing, transaction processing and reporting on the BAS enterprise system",
+      "Pre-audit compliance checks, duplication detection and batch validation",
+      "Hybrid physical and electronic records management with high-volume digitisation",
     ],
   },
 ];
@@ -138,36 +116,27 @@ const certifications = [
   {
     title: "Google AI Essentials",
     issuer: "Coursera · Google",
-    detail:
-      "Five-course programme covering responsible and effective use of AI tools to support productivity, improve workflows and enhance task completion.",
+    detail: "Responsible and effective use of AI tools to support productivity and workflows.",
   },
   {
-    title: "Generative AI",
+    title: "Generative AI & Prompt Engineering",
     issuer: "Coursera",
-    detail: "Introduction to Generative AI, AI Essentials and Generative AI Prompt Engineering.",
-  },
-  {
-    title: "AI Prompting",
-    issuer: "Coursera",
-    detail:
-      "Introduction to AI, the art of prompting, responsible AI use, staying ahead of the AI curve and maximising productivity with AI.",
+    detail: "Generative AI fundamentals, prompting techniques and responsible AI use.",
   },
   {
     title: "Python, Machine Learning & Trustworthy AI",
     issuer: "Accredited online coursework",
-    detail:
-      "Python programming, supervised machine learning, advanced learning algorithms and trustworthy AI principles.",
+    detail: "Python programming, supervised ML, advanced learning algorithms and trustworthy AI.",
   },
   {
-    title: "WCG Basic ICT Training Course",
+    title: "WCG Basic ICT Training",
     issuer: "Western Cape Government",
-    detail: "Departmental ICT fundamentals, systems usage standards and workplace technology practice.",
+    detail: "Departmental ICT fundamentals, systems usage and workplace technology practice.",
   },
   {
     title: "BAS Financial Systems Training",
     issuer: "Western Cape Government",
-    detail:
-      "In-office enterprise systems training on BAS, complemented by the Financial Management Internal Training Programme.",
+    detail: "Enterprise systems training on BAS and financial management controls.",
   },
 ];
 
@@ -192,14 +161,14 @@ const education = [
     school: "University of the Western Cape",
     period: "2024 – 2025",
     detail:
-      "Distinctions in Development Economics, Organisational Development, Workplace Learning, Gender and Development, and Local Governance. Coursework included Managing Information and Communication, Research Methodology and Training Design and Facilitation.",
+      "Distinctions in Development Economics, Organisational Development and Local Governance. Coursework included Managing Information and Communication, Research Methodology and Training Design.",
   },
   {
     qualification: "National Senior Certificate",
     school: "Apex High School",
     period: "2022",
     detail:
-      "English Home Language, Afrikaans First Additional Language (distinction), Mathematics, Life Sciences, Physical Sciences, Geography and Life Orientation.",
+      "Mathematics, Life Sciences, Physical Sciences, Geography and Afrikaans First Additional Language (distinction).",
   },
 ];
 
@@ -274,9 +243,9 @@ function Portfolio() {
             </Reveal>
             <Reveal delay={240}>
               <p className="mt-6 max-w-xl text-base leading-relaxed text-primary-foreground/75">
-                Technically grounded IT support professional delivering dependable end-user support,
-                enterprise systems administration and data integrity assurance — reinforced by
-                certified competence in Python, machine learning and responsible AI practice.
+                IT support professional delivering dependable service desk, systems administration
+                and data integrity assurance — reinforced by certified Python, machine learning and
+                responsible AI knowledge.
               </p>
             </Reveal>
             <Reveal delay={320} className="mt-10 flex flex-wrap items-center gap-4">
@@ -344,34 +313,19 @@ function Portfolio() {
               <div className="space-y-5 text-[0.98rem] leading-relaxed text-muted-foreground">
                 <p>
                   Caleb Krewu is a detail-oriented IT operations and support technician with
-                  demonstrated experience across service desk support, information systems
-                  administration and data integrity management. His practical foundation was
-                  established within a government finance environment, where enterprise platform
-                  accuracy, internal control compliance and confidentiality were operational
-                  requirements rather than aspirations.
+                  experience across service desk support, information systems administration and
+                  data integrity management. His foundation was built within a government finance
+                  environment, where enterprise platform accuracy, internal controls and
+                  confidentiality were core operational requirements.
                 </p>
                 <p>
                   His current service desk practice covers hardware, software, network and account
-                  incidents from initial logging through diagnosis to verified resolution. Incidents
-                  are prioritised according to urgency and organisational impact, escalated where
-                  appropriate, and documented so that recurring faults can be identified and
-                  addressed at source. Remote support tooling and structured troubleshooting
-                  methodology underpin consistent first-contact resolution.
-                </p>
-                <p>
-                  Within information systems, Caleb applies a governance-led approach: records are
-                  captured accurately, filing structures remain auditable across physical and
-                  electronic media, and data anomalies such as duplication or control weaknesses are
-                  investigated and reported. This discipline extends to system access administration,
-                  user permission accuracy and the integrity of reporting outputs relied upon by
-                  decision-makers.
-                </p>
-                <p>
-                  Alongside core IT operations, he maintains certified knowledge of Python
-                  programming, generative AI, prompt engineering, supervised machine learning,
-                  advanced learning algorithms and trustworthy AI. This positions him to support
-                  organisations adopting AI-assisted workflows responsibly, with attention to
-                  reliability, transparency and appropriate use.
+                  incidents from logging through to resolution, with clear prioritisation,
+                  escalation and documentation. He also applies a governance-led approach to
+                  information systems: accurate records, auditable filing and proactive data anomaly
+                  reporting. Certified in Python, generative AI, prompt engineering, supervised
+                  machine learning and trustworthy AI, he is positioned to support responsible
+                  AI-assisted workflows alongside core IT operations.
                 </p>
               </div>
             </div>
@@ -415,7 +369,7 @@ function Portfolio() {
           <SectionHeading
             eyebrow="Core Capability"
             title="IT support and information systems expertise"
-            intro="Four practice areas that define day-to-day delivery — from frontline incident resolution to information governance and applied AI."
+            intro="Four practice areas defining day-to-day delivery — incident resolution, systems administration, data governance and applied AI."
           />
           <div className="grid gap-6 md:grid-cols-2">
             {expertise.map((area, index) => (
@@ -445,9 +399,9 @@ function Portfolio() {
       {/* Experience */}
       <section id="experience" className="mx-auto max-w-6xl px-6 py-24">
         <SectionHeading
-          eyebrow="Experience"
-          title="Professional track record"
-          intro="Applied experience across service desk operations, enterprise systems administration and process-critical service environments."
+            eyebrow="Experience"
+            title="Professional track record"
+            intro="Applied experience across service desk operations and enterprise systems administration within high-volume environments."
         />
         <div className="relative">
           <span
@@ -474,9 +428,6 @@ function Portfolio() {
                         {role.period}
                       </p>
                     </div>
-                    <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-                      {role.summary}
-                    </p>
                     <ul className="mt-4 space-y-2.5 text-sm leading-relaxed text-muted-foreground">
                       {role.points.map((point) => (
                         <li key={point} className="flex gap-3">
@@ -499,7 +450,7 @@ function Portfolio() {
           <SectionHeading
             eyebrow="Certifications"
             title="Certified knowledge & continuous development"
-            intro="Formal coursework spanning Python programming, generative AI, prompt engineering, supervised machine learning, advanced learning algorithms, trustworthy AI and enterprise ICT systems."
+            intro="Formal coursework in Python, generative AI, prompt engineering, machine learning, trustworthy AI and enterprise ICT systems."
           />
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {certifications.map((item, index) => (
@@ -540,28 +491,6 @@ function Portfolio() {
             </Reveal>
           ))}
         </div>
-        <Reveal delay={140} className="mt-6">
-          <div className="glass-card rounded-3xl p-8">
-            <h3 className="font-display text-lg font-semibold text-foreground">Academic projects</h3>
-            <ul className="mt-4 space-y-2.5 text-sm leading-relaxed text-muted-foreground">
-              <li className="flex gap-3">
-                <span className="mt-2 size-1.5 shrink-0 rounded-full bg-turquoise-deep" />
-                Delivered a formal presentation on information and communication management,
-                focusing on data governance and organisational communication frameworks
-              </li>
-              <li className="flex gap-3">
-                <span className="mt-2 size-1.5 shrink-0 rounded-full bg-turquoise-deep" />
-                Produced a research paper on Integrated Development Plans, analysing function,
-                purpose and implementation within local governance structures
-              </li>
-              <li className="flex gap-3">
-                <span className="mt-2 size-1.5 shrink-0 rounded-full bg-turquoise-deep" />
-                Facilitated structured academic discussions between students and subject-matter
-                experts to support collaborative knowledge transfer
-              </li>
-            </ul>
-          </div>
-        </Reveal>
       </section>
 
       {/* Contact */}
