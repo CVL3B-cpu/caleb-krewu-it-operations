@@ -313,34 +313,19 @@ function Portfolio() {
               <div className="space-y-5 text-[0.98rem] leading-relaxed text-muted-foreground">
                 <p>
                   Caleb Krewu is a detail-oriented IT operations and support technician with
-                  demonstrated experience across service desk support, information systems
-                  administration and data integrity management. His practical foundation was
-                  established within a government finance environment, where enterprise platform
-                  accuracy, internal control compliance and confidentiality were operational
-                  requirements rather than aspirations.
+                  experience across service desk support, information systems administration and
+                  data integrity management. His foundation was built within a government finance
+                  environment, where enterprise platform accuracy, internal controls and
+                  confidentiality were core operational requirements.
                 </p>
                 <p>
                   His current service desk practice covers hardware, software, network and account
-                  incidents from initial logging through diagnosis to verified resolution. Incidents
-                  are prioritised according to urgency and organisational impact, escalated where
-                  appropriate, and documented so that recurring faults can be identified and
-                  addressed at source. Remote support tooling and structured troubleshooting
-                  methodology underpin consistent first-contact resolution.
-                </p>
-                <p>
-                  Within information systems, Caleb applies a governance-led approach: records are
-                  captured accurately, filing structures remain auditable across physical and
-                  electronic media, and data anomalies such as duplication or control weaknesses are
-                  investigated and reported. This discipline extends to system access administration,
-                  user permission accuracy and the integrity of reporting outputs relied upon by
-                  decision-makers.
-                </p>
-                <p>
-                  Alongside core IT operations, he maintains certified knowledge of Python
-                  programming, generative AI, prompt engineering, supervised machine learning,
-                  advanced learning algorithms and trustworthy AI. This positions him to support
-                  organisations adopting AI-assisted workflows responsibly, with attention to
-                  reliability, transparency and appropriate use.
+                  incidents from logging through to resolution, with clear prioritisation,
+                  escalation and documentation. He also applies a governance-led approach to
+                  information systems: accurate records, auditable filing and proactive data anomaly
+                  reporting. Certified in Python, generative AI, prompt engineering, supervised
+                  machine learning and trustworthy AI, he is positioned to support responsible
+                  AI-assisted workflows alongside core IT operations.
                 </p>
               </div>
             </div>
