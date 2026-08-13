@@ -491,28 +491,6 @@ function Portfolio() {
             </Reveal>
           ))}
         </div>
-        <Reveal delay={140} className="mt-6">
-          <div className="glass-card rounded-3xl p-8">
-            <h3 className="font-display text-lg font-semibold text-foreground">Academic projects</h3>
-            <ul className="mt-4 space-y-2.5 text-sm leading-relaxed text-muted-foreground">
-              <li className="flex gap-3">
-                <span className="mt-2 size-1.5 shrink-0 rounded-full bg-turquoise-deep" />
-                Delivered a formal presentation on information and communication management,
-                focusing on data governance and organisational communication frameworks
-              </li>
-              <li className="flex gap-3">
-                <span className="mt-2 size-1.5 shrink-0 rounded-full bg-turquoise-deep" />
-                Produced a research paper on Integrated Development Plans, analysing function,
-                purpose and implementation within local governance structures
-              </li>
-              <li className="flex gap-3">
-                <span className="mt-2 size-1.5 shrink-0 rounded-full bg-turquoise-deep" />
-                Facilitated structured academic discussions between students and subject-matter
-                experts to support collaborative knowledge transfer
-              </li>
-            </ul>
-          </div>
-        </Reveal>
       </section>
 
       {/* Contact */}
