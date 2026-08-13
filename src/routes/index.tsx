@@ -538,15 +538,6 @@ function Portfolio() {
                       071 232 5608
                     </a>
                   </li>
-                  <li>
-                    <a
-                      href="tel:+27796012409"
-                      className="underline-sweep inline-flex items-center gap-3 text-primary-foreground/85 transition-colors hover:text-primary-foreground"
-                    >
-                      <Phone className="size-4 text-turquoise" />
-                      079 601 2409
-                    </a>
-                  </li>
                   <li className="inline-flex items-center gap-3 text-primary-foreground/85">
                     <MapPin className="size-4 text-turquoise" />
                     Eersterivier, Cape Town, South Africa
