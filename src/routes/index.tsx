@@ -399,9 +399,9 @@ function Portfolio() {
       {/* Experience */}
       <section id="experience" className="mx-auto max-w-6xl px-6 py-24">
         <SectionHeading
-          eyebrow="Experience"
-          title="Professional track record"
-          intro="Applied experience across service desk operations, enterprise systems administration and process-critical service environments."
+            eyebrow="Experience"
+            title="Professional track record"
+            intro="Applied experience across service desk operations and enterprise systems administration within high-volume environments."
         />
         <div className="relative">
           <span
