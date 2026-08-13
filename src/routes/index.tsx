@@ -94,38 +94,20 @@ const experience = [
     role: "IT Support Service Desk Technician",
     org: "CAPACITI",
     period: "June 2026 – Present",
-    summary:
-      "Delivers frontline technical support within a structured service desk environment, resolving hardware, software, network and system incidents end to end.",
     points: [
-      "Provides technical support for hardware, software, network and system-related issues",
-      "Troubleshoots and resolves user problems through diagnostics, structured problem-solving and remote support",
-      "Manages and responds to IT support tickets, prioritising incidents based on urgency and business impact",
-      "Assists users with system access, software applications, account issues and general IT queries",
+      "Frontline technical support for hardware, software, network and system incidents",
+      "Ticket prioritisation, remote troubleshooting and user access administration",
+      "Clear documentation and escalation aligned to business impact",
     ],
   },
   {
     role: "Financial Systems & Administration Intern",
     org: "Western Cape Government — Chief Directorate: Finance",
     period: "May 2023 – February 2024",
-    summary:
-      "Performed systems administration and information management functions within a high-volume government finance environment, supporting enterprise platform operations and data assurance.",
     points: [
-      "Executed data capturing, transaction processing and report generation on the BAS enterprise system",
-      "Conducted pre-audit compliance checks to ensure data accuracy and adherence to internal control standards",
-      "Performed systematic duplication detection on payment records using Excel-based departmental databases",
-      "Generated document control reports and monthly journal reports; processed and validated batch transactions",
-      "Designed and maintained a hybrid physical and electronic filing system, digitising records through high-volume scanning",
-    ],
-  },
-  {
-    role: "Animal Ambulance Operator",
-    org: "Diere Ambulans Dienste (D.A.D.)",
-    period: "September 2025 – Present",
-    summary:
-      "Operates within a time-critical service environment requiring protocol adherence, logistics coordination and professional client engagement.",
-    points: [
-      "Ensures safe and humane transportation of animals to veterinary facilities in line with operational protocol",
-      "Manages time-sensitive logistics and maintains professional communication with clients",
+      "Data capturing, transaction processing and reporting on the BAS enterprise system",
+      "Pre-audit compliance checks, duplication detection and batch validation",
+      "Hybrid physical and electronic records management with high-volume digitisation",
     ],
   },
 ];
