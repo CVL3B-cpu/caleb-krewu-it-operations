@@ -116,36 +116,27 @@ const certifications = [
   {
     title: "Google AI Essentials",
     issuer: "Coursera · Google",
-    detail:
-      "Five-course programme covering responsible and effective use of AI tools to support productivity, improve workflows and enhance task completion.",
+    detail: "Responsible and effective use of AI tools to support productivity and workflows.",
   },
   {
-    title: "Generative AI",
+    title: "Generative AI & Prompt Engineering",
     issuer: "Coursera",
-    detail: "Introduction to Generative AI, AI Essentials and Generative AI Prompt Engineering.",
-  },
-  {
-    title: "AI Prompting",
-    issuer: "Coursera",
-    detail:
-      "Introduction to AI, the art of prompting, responsible AI use, staying ahead of the AI curve and maximising productivity with AI.",
+    detail: "Generative AI fundamentals, prompting techniques and responsible AI use.",
   },
   {
     title: "Python, Machine Learning & Trustworthy AI",
     issuer: "Accredited online coursework",
-    detail:
-      "Python programming, supervised machine learning, advanced learning algorithms and trustworthy AI principles.",
+    detail: "Python programming, supervised ML, advanced learning algorithms and trustworthy AI.",
   },
   {
-    title: "WCG Basic ICT Training Course",
+    title: "WCG Basic ICT Training",
     issuer: "Western Cape Government",
-    detail: "Departmental ICT fundamentals, systems usage standards and workplace technology practice.",
+    detail: "Departmental ICT fundamentals, systems usage and workplace technology practice.",
   },
   {
     title: "BAS Financial Systems Training",
     issuer: "Western Cape Government",
-    detail:
-      "In-office enterprise systems training on BAS, complemented by the Financial Management Internal Training Programme.",
+    detail: "Enterprise systems training on BAS and financial management controls.",
   },
 ];
 
