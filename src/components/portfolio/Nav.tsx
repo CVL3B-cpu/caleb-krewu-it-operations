@@ -36,14 +36,19 @@ export function Nav() {
     >
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <a href="#top" className="font-display text-sm font-semibold tracking-[0.35em] uppercase">
-          <span className="gradient-text">C. Krewu</span>
+          <span className={scrolled ? "gradient-text" : "shimmer-text"}>C. Krewu</span>
         </a>
         <ul className="hidden items-center gap-7 md:flex">
           {links.map((link) => (
             <li key={link.href}>
               <a
                 href={link.href}
-                className="underline-sweep text-xs font-medium tracking-[0.14em] uppercase text-muted-foreground transition-colors hover:text-foreground"
+                className={cn(
+                  "underline-sweep text-xs font-medium tracking-[0.14em] uppercase transition-colors",
+                  scrolled
+                    ? "text-muted-foreground hover:text-foreground"
+                    : "text-white/70 hover:text-white",
+                )}
               >
                 {link.label}
               </a>

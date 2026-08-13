@@ -660,7 +660,8 @@ function Portfolio() {
                 <div className="flex flex-wrap justify-center gap-4">
                   <MagneticButton
                     href={`mailto:${EMAIL}?subject=IT%20Support%20Opportunity`}
-                    className="bg-white text-ink hover:brightness-100"
+                    variant="outline"
+                    className="border-white/70 bg-background text-ink hover:bg-background/90"
                   >
                     <Mail className="size-4" />
                     Email Caleb
