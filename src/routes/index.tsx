@@ -369,7 +369,7 @@ function Portfolio() {
           <SectionHeading
             eyebrow="Core Capability"
             title="IT support and information systems expertise"
-            intro="Four practice areas that define day-to-day delivery — from frontline incident resolution to information governance and applied AI."
+            intro="Four practice areas defining day-to-day delivery — incident resolution, systems administration, data governance and applied AI."
           />
           <div className="grid gap-6 md:grid-cols-2">
             {expertise.map((area, index) => (
