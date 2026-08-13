@@ -450,7 +450,7 @@ function Portfolio() {
           <SectionHeading
             eyebrow="Certifications"
             title="Certified knowledge & continuous development"
-            intro="Formal coursework spanning Python programming, generative AI, prompt engineering, supervised machine learning, advanced learning algorithms, trustworthy AI and enterprise ICT systems."
+            intro="Formal coursework in Python, generative AI, prompt engineering, machine learning, trustworthy AI and enterprise ICT systems."
           />
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {certifications.map((item, index) => (
