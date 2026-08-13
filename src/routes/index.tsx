@@ -452,9 +452,6 @@ function Portfolio() {
                         {role.period}
                       </p>
                     </div>
-                    <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-                      {role.summary}
-                    </p>
                     <ul className="mt-4 space-y-2.5 text-sm leading-relaxed text-muted-foreground">
                       {role.points.map((point) => (
                         <li key={point} className="flex gap-3">
