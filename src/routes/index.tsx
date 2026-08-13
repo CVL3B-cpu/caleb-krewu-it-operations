@@ -161,14 +161,14 @@ const education = [
     school: "University of the Western Cape",
     period: "2024 – 2025",
     detail:
-      "Distinctions in Development Economics, Organisational Development, Workplace Learning, Gender and Development, and Local Governance. Coursework included Managing Information and Communication, Research Methodology and Training Design and Facilitation.",
+      "Distinctions in Development Economics, Organisational Development and Local Governance. Coursework included Managing Information and Communication, Research Methodology and Training Design.",
   },
   {
     qualification: "National Senior Certificate",
     school: "Apex High School",
     period: "2022",
     detail:
-      "English Home Language, Afrikaans First Additional Language (distinction), Mathematics, Life Sciences, Physical Sciences, Geography and Life Orientation.",
+      "Mathematics, Life Sciences, Physical Sciences, Geography and Afrikaans First Additional Language (distinction).",
   },
 ];
 
