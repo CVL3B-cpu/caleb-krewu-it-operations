@@ -523,7 +523,7 @@ function Portfolio() {
                   <li>
                     <a
                       href={`mailto:${EMAIL}`}
-                      className="underline-sweep inline-flex items-center gap-3 text-primary-foreground/85 transition-colors hover:text-primary-foreground"
+                      className="underline-sweep inline-flex items-center gap-3 text-primary-foreground/85 transition-all duration-300 hover:translate-x-1 hover:text-primary-foreground"
                     >
                       <Mail className="size-4 text-turquoise" />
                       {EMAIL}
@@ -532,7 +532,7 @@ function Portfolio() {
                   <li>
                     <a
                       href="tel:+27712325608"
-                      className="underline-sweep inline-flex items-center gap-3 text-primary-foreground/85 transition-colors hover:text-primary-foreground"
+                      className="underline-sweep inline-flex items-center gap-3 text-primary-foreground/85 transition-all duration-300 hover:translate-x-1 hover:text-primary-foreground"
                     >
                       <Phone className="size-4 text-turquoise" />
                       071 232 5608
@@ -547,7 +547,7 @@ function Portfolio() {
                       href={LINKEDIN}
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="underline-sweep inline-flex items-center gap-3 text-primary-foreground/85 transition-colors hover:text-primary-foreground"
+                      className="underline-sweep inline-flex items-center gap-3 text-primary-foreground/85 transition-all duration-300 hover:translate-x-1 hover:text-primary-foreground"
                     >
                       <Linkedin className="size-4 text-turquoise" />
                       linkedin.com/in/caleb-krewu-924840298
@@ -558,7 +558,7 @@ function Portfolio() {
                       href={GITHUB}
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="underline-sweep inline-flex items-center gap-3 text-primary-foreground/85 transition-colors hover:text-primary-foreground"
+                      className="underline-sweep inline-flex items-center gap-3 text-primary-foreground/85 transition-all duration-300 hover:translate-x-1 hover:text-primary-foreground"
                     >
                       <Github className="size-4 text-turquoise" />
                       github.com/CVL3B-cpu
