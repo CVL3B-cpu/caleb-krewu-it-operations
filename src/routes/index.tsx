@@ -219,7 +219,7 @@ function Portfolio() {
         <div className="relative mx-auto grid max-w-6xl items-center gap-14 px-6 lg:grid-cols-[1.15fr_0.85fr]">
           <div>
             <Reveal>
-              <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-turquoise/30 bg-white/5 px-4 py-1.5 text-[0.7rem] font-semibold tracking-[0.24em] uppercase backdrop-blur">
+              <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-turquoise/30 bg-white/5 px-4 py-1.5 text-[0.7rem] font-semibold tracking-[0.24em] uppercase backdrop-blur transition-all duration-300 hover:border-turquoise/60 hover:bg-white/10">
                 <Sparkles className="size-3.5 text-turquoise" />
                 Cape Town, South Africa
               </p>
@@ -295,8 +295,8 @@ function Portfolio() {
         <div className="mx-auto grid max-w-6xl gap-6 px-6 py-14 sm:grid-cols-2 lg:grid-cols-4">
           {stats.map((stat, index) => (
             <Reveal key={stat.label} delay={index * 90}>
-              <div className="glass-card rounded-2xl p-6">
-                <p className="font-display text-3xl font-semibold gradient-text">{stat.value}</p>
+              <div className="glass-card group rounded-2xl p-6">
+                <p className="font-display text-3xl font-semibold gradient-text transition-transform duration-300 group-hover:scale-105">{stat.value}</p>
                 <p className="mt-2 text-sm leading-snug text-muted-foreground">{stat.label}</p>
               </div>
             </Reveal>
@@ -374,8 +374,8 @@ function Portfolio() {
           <div className="grid gap-6 md:grid-cols-2">
             {expertise.map((area, index) => (
               <Reveal key={area.title} delay={index * 100}>
-                <article className="glass-card h-full rounded-3xl p-8">
-                  <span className="inline-flex size-12 items-center justify-center rounded-2xl gradient-hero text-primary-foreground shadow-lift">
+                <article className="glass-card group h-full rounded-3xl p-8">
+                  <span className="inline-flex size-12 items-center justify-center rounded-2xl gradient-hero text-primary-foreground shadow-lift transition-transform duration-300 group-hover:scale-110 group-hover:rotate-3">
                     <area.icon className="size-5" />
                   </span>
                   <h3 className="mt-6 font-display text-xl font-semibold text-foreground">
@@ -414,9 +414,9 @@ function Portfolio() {
                 <div className="relative sm:pl-12">
                   <span
                     aria-hidden
-                    className="absolute top-8 left-0 hidden size-4 rounded-full border-2 border-background gradient-hero shadow-lift sm:block"
+                    className="absolute top-8 left-0 hidden size-4 rounded-full border-2 border-background gradient-hero shadow-lift transition-transform duration-300 group-hover:scale-125 sm:block"
                   />
-                  <article className="glass-card rounded-3xl p-8">
+                  <article className="glass-card group rounded-3xl p-8">
                     <div className="flex flex-wrap items-baseline justify-between gap-3">
                       <div>
                         <h3 className="font-display text-xl font-semibold text-foreground">
@@ -455,8 +455,8 @@ function Portfolio() {
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {certifications.map((item, index) => (
               <Reveal key={item.title} delay={index * 80}>
-                <article className="glass-card h-full rounded-3xl p-7">
-                  <Award className="size-5 text-turquoise-deep" />
+                <article className="glass-card group h-full rounded-3xl p-7">
+                  <Award className="size-5 text-turquoise-deep transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6" />
                   <h3 className="mt-4 font-display text-lg leading-snug font-semibold text-foreground">
                     {item.title}
                   </h3>
@@ -477,8 +477,8 @@ function Portfolio() {
         <div className="grid gap-6 md:grid-cols-2">
           {education.map((item, index) => (
             <Reveal key={item.qualification} delay={index * 110}>
-              <article className="glass-card h-full rounded-3xl p-8">
-                <GraduationCap className="size-5 text-turquoise-deep" />
+              <article className="glass-card group h-full rounded-3xl p-8">
+                <GraduationCap className="size-5 text-turquoise-deep transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6" />
                 <h3 className="mt-4 font-display text-lg font-semibold text-foreground">
                   {item.qualification}
                 </h3>
@@ -523,7 +523,7 @@ function Portfolio() {
                   <li>
                     <a
                       href={`mailto:${EMAIL}`}
-                      className="underline-sweep inline-flex items-center gap-3 text-primary-foreground/85 transition-colors hover:text-primary-foreground"
+                      className="underline-sweep inline-flex items-center gap-3 text-primary-foreground/85 transition-all duration-300 hover:translate-x-1 hover:text-primary-foreground"
                     >
                       <Mail className="size-4 text-turquoise" />
                       {EMAIL}
@@ -532,7 +532,7 @@ function Portfolio() {
                   <li>
                     <a
                       href="tel:+27712325608"
-                      className="underline-sweep inline-flex items-center gap-3 text-primary-foreground/85 transition-colors hover:text-primary-foreground"
+                      className="underline-sweep inline-flex items-center gap-3 text-primary-foreground/85 transition-all duration-300 hover:translate-x-1 hover:text-primary-foreground"
                     >
                       <Phone className="size-4 text-turquoise" />
                       071 232 5608
@@ -547,7 +547,7 @@ function Portfolio() {
                       href={LINKEDIN}
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="underline-sweep inline-flex items-center gap-3 text-primary-foreground/85 transition-colors hover:text-primary-foreground"
+                      className="underline-sweep inline-flex items-center gap-3 text-primary-foreground/85 transition-all duration-300 hover:translate-x-1 hover:text-primary-foreground"
                     >
                       <Linkedin className="size-4 text-turquoise" />
                       linkedin.com/in/caleb-krewu-924840298
@@ -558,7 +558,7 @@ function Portfolio() {
                       href={GITHUB}
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="underline-sweep inline-flex items-center gap-3 text-primary-foreground/85 transition-colors hover:text-primary-foreground"
+                      className="underline-sweep inline-flex items-center gap-3 text-primary-foreground/85 transition-all duration-300 hover:translate-x-1 hover:text-primary-foreground"
                     >
                       <Github className="size-4 text-turquoise" />
                       github.com/CVL3B-cpu
