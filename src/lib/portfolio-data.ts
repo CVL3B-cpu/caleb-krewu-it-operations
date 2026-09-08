@@ -15,7 +15,7 @@ export const ABOUT_TEXT =
 
 export const stats = [
   { value: "1+", label: "Years across systems & support environments" },
-  { value: "6", label: "AI & ICT certifications completed" },
+  { value: "5", label: "AI & ICT certifications completed" },
   { value: "2", label: "Enterprise platforms operated (BAS, LOGIS)" },
   { value: "2", label: "Languages — English & Afrikaans" },
 ];
