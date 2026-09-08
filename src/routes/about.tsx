@@ -1,8 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import {
-  ArrowDown,
   Award,
-  BrainCircuit,
   Download,
   Mail,
   ServerCog,
@@ -11,6 +9,7 @@ import {
   Terminal,
   TicketCheck,
 } from "lucide-react";
+
 
 import photo from "@/assets/caleb-krewu.png.asset.json";
 import cv from "@/assets/caleb-krewu-cv.docx.asset.json";
