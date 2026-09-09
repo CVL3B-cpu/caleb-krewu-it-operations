@@ -3,6 +3,7 @@ import {
   ArrowDown,
   Award,
   BrainCircuit,
+  Cpu,
   Download,
   Github,
   GraduationCap,
