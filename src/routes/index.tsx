@@ -129,6 +129,16 @@ const certifications = [
     detail: "Python programming, supervised ML, advanced learning algorithms and trustworthy AI.",
   },
   {
+    title: "Hardware & Upgrade Support",
+    issuer: "CISCO",
+    detail: "Diagnosing, replacing and upgrading hardware components across endpoint devices.",
+  },
+  {
+    title: "OS Support",
+    issuer: "CISCO",
+    detail: "Operating system installation, configuration, patching and end-user support.",
+  },
+  {
     title: "WCG Basic ICT Training",
     issuer: "Western Cape Government",
     detail: "Departmental ICT fundamentals, systems usage and workplace technology practice.",
