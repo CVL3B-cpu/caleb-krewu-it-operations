@@ -304,9 +304,9 @@ function Portfolio() {
         </div>
       </section>
 
-      {/* Profile */}
-      <section id="profile" className="mx-auto max-w-6xl px-6 py-24">
-        <SectionHeading eyebrow="Professional Profile" title="Systems-focused IT support practitioner" />
+      {/* About */}
+      <section id="about" className="mx-auto max-w-6xl px-6 py-24">
+        <SectionHeading eyebrow="About" title="Systems-focused IT support practitioner" />
         <div className="grid gap-8 lg:grid-cols-[1.25fr_0.75fr]">
           <Reveal>
             <div className="glass-card rounded-3xl p-8 sm:p-10">
