@@ -3,6 +3,7 @@ import {
   ArrowDown,
   Award,
   BrainCircuit,
+  Cpu,
   Download,
   Github,
   GraduationCap,
@@ -87,6 +88,15 @@ const expertise = [
       "Responsible AI application to improve workplace productivity",
     ],
   },
+  {
+    icon: Cpu,
+    title: "Hardware, OS & Troubleshooting Support",
+    points: [
+      "CISCO-certified hardware diagnostics, component replacement and system upgrades",
+      "Operating system installation, configuration, patching and end-user support",
+      "Structured root-cause troubleshooting across devices, OS and peripheral issues",
+    ],
+  },
 ];
 
 const experience = [
@@ -129,6 +139,16 @@ const certifications = [
     detail: "Python programming, supervised ML, advanced learning algorithms and trustworthy AI.",
   },
   {
+    title: "Hardware & Upgrade Support",
+    issuer: "CISCO",
+    detail: "Diagnosing, replacing and upgrading hardware components across endpoint devices.",
+  },
+  {
+    title: "OS Support",
+    issuer: "CISCO",
+    detail: "Operating system installation, configuration, patching and end-user support.",
+  },
+  {
     title: "WCG Basic ICT Training",
     issuer: "Western Cape Government",
     detail: "Departmental ICT fundamentals, systems usage and workplace technology practice.",
@@ -149,6 +169,9 @@ const toolkit = [
   "Ticketing & incident triage",
   "Remote support",
   "Records digitisation",
+  "Hardware & Upgrade Support (CISCO)",
+  "OS Support (CISCO)",
+  "Troubleshooting",
   "Python",
   "Prompt engineering",
   "Supervised ML",
@@ -174,7 +197,7 @@ const education = [
 
 const stats = [
   { value: "1+", label: "Years across systems & support environments" },
-  { value: "6", label: "AI & ICT certifications completed" },
+  { value: "7", label: "AI & ICT certifications completed" },
   { value: "2", label: "Enterprise platforms operated (BAS, LOGIS)" },
   { value: "2", label: "Languages — English & Afrikaans" },
 ];
@@ -304,9 +327,9 @@ function Portfolio() {
         </div>
       </section>
 
-      {/* Profile */}
-      <section id="profile" className="mx-auto max-w-6xl px-6 py-24">
-        <SectionHeading eyebrow="Professional Profile" title="Systems-focused IT support practitioner" />
+      {/* About */}
+      <section id="about" className="mx-auto max-w-6xl px-6 py-24">
+        <SectionHeading eyebrow="About" title="Systems-focused IT support practitioner" />
         <div className="grid gap-8 lg:grid-cols-[1.25fr_0.75fr]">
           <Reveal>
             <div className="glass-card rounded-3xl p-8 sm:p-10">

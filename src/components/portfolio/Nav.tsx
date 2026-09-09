@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 
 const links = [
-  { href: "#profile", label: "Profile" },
+  { href: "#about", label: "About" },
   { href: "#expertise", label: "Expertise" },
   { href: "#experience", label: "Experience" },
   { href: "#certifications", label: "Certifications" },
