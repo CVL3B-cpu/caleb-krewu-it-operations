@@ -88,6 +88,15 @@ const expertise = [
       "Responsible AI application to improve workplace productivity",
     ],
   },
+  {
+    icon: Cpu,
+    title: "Hardware, OS & Troubleshooting Support",
+    points: [
+      "CISCO-certified hardware diagnostics, component replacement and system upgrades",
+      "Operating system installation, configuration, patching and end-user support",
+      "Structured root-cause troubleshooting across devices, OS and peripheral issues",
+    ],
+  },
 ];
 
 const experience = [
