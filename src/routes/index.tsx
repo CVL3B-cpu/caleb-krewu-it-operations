@@ -158,6 +158,36 @@ const certifications = [
     issuer: "Western Cape Government",
     detail: "Enterprise systems training on BAS and financial management controls.",
   },
+  {
+    title: "Technical Support Fundamentals",
+    issuer: "Coursera · Google",
+    detail: "Foundations of technical support: hardware, software, troubleshooting and the service desk role.",
+  },
+  {
+    title: "The Bits and Bytes of Computer Networking",
+    issuer: "Coursera · Google",
+    detail: "Networking fundamentals, the TCP/IP model, DNS, routing and network troubleshooting.",
+  },
+  {
+    title: "Operating Systems and You: Becoming a Power User",
+    issuer: "Coursera · Google",
+    detail: "Windows and Linux administration: file systems, users, processes and package management.",
+  },
+  {
+    title: "System Administration and IT Infrastructure Services",
+    issuer: "Coursera · Google",
+    detail: "Server, cloud and directory administration plus IT infrastructure backup and recovery.",
+  },
+  {
+    title: "IT Security: Defense against the Digital Dark Arts",
+    issuer: "Coursera · Google",
+    detail: "Security fundamentals: authentication, malware, cryptography and network defense.",
+  },
+  {
+    title: "Accelerate Your Job Search with AI",
+    issuer: "Coursera · Google",
+    detail: "Using AI tools for job search strategy, applications and interview preparation.",
+  },
 ];
 
 const toolkit = [
@@ -176,6 +206,16 @@ const toolkit = [
   "Prompt engineering",
   "Supervised ML",
   "Trustworthy AI",
+  "Software Installation (Coursera · Google)",
+  "Computer Hardware (Coursera · Google)",
+  "Technical Support (Coursera · Google)",
+  "Network Troubleshooting (Coursera · Google)",
+  "Technical Support Fundamentals (Coursera · Google)",
+  "Computer Networking (Coursera · Google)",
+  "Operating Systems (Coursera · Google)",
+  "System Administration (Coursera · Google)",
+  "IT Security (Coursera · Google)",
+  "AI-assisted Job Search (Coursera · Google)",
 ];
 
 const education = [
@@ -197,7 +237,7 @@ const education = [
 
 const stats = [
   { value: "1+", label: "Years across systems & support environments" },
-  { value: "7", label: "AI & ICT certifications completed" },
+  { value: "13", label: "AI, ICT & IT support certifications completed" },
   { value: "2", label: "Enterprise platforms operated (BAS, LOGIS)" },
   { value: "2", label: "Languages — English & Afrikaans" },
 ];
@@ -392,7 +432,7 @@ function Portfolio() {
           <SectionHeading
             eyebrow="Core Capability"
             title="IT support and information systems expertise"
-            intro="Four practice areas defining day-to-day delivery — incident resolution, systems administration, data governance and applied AI."
+            intro="Five practice areas defining day-to-day delivery — incident resolution, systems administration, data governance, applied AI and hardware support."
           />
           <div className="grid gap-6 md:grid-cols-2">
             {expertise.map((area, index) => (
@@ -473,7 +513,7 @@ function Portfolio() {
           <SectionHeading
             eyebrow="Certifications"
             title="Certified knowledge & continuous development"
-            intro="Formal coursework in Python, generative AI, prompt engineering, machine learning, trustworthy AI and enterprise ICT systems."
+            intro="Formal coursework in Python, generative AI, machine learning, trustworthy AI, the Google IT Support track and enterprise ICT systems."
           />
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {certifications.map((item, index) => (
